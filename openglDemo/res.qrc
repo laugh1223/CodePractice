@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>shaderProgram/test.fs</file>
+        <file>shaderProgram/test.vs</file>
+        <file>textures/awesomeface.png</file>
+        <file>textures/container.jpg</file>
+    </qresource>
+</RCC>
