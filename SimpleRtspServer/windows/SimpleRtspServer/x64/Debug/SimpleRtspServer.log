@@ -1,0 +1,103 @@
+﻿  Event.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  EventScheduler.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Poller.cpp
+  SelectPoller.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  SocketsOps.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\SocketsOps.cpp(17,16): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\SocketsOps.cpp(32,16): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\SocketsOps.cpp(87,16): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+  Thread.cpp
+  ThreadPool.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Timer.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Timer.cpp(177,20): warning C4244: “初始化”: 从“Timer::Timestamp”转换到“int”，可能丢失数据
+  UsageEnvironment.cpp
+  AACFileMediaSource.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\AACFileMediaSource.cpp(87,34): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\AACFileMediaSource.cpp(90,38): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\AACFileMediaSource.cpp(99,35): warning C4018: “>”: 有符号/无符号不匹配
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\AACFileMediaSource.cpp(103,60): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  AACFileSink.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Buffer.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Buffer.h(79,16): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+  H264FileMediaSource.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\H264FileMediaSource.cpp(120,37): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\H264FileMediaSource.cpp(133,36): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  H264FileSink.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  InetAddress.cpp
+  MediaSession.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\MediaSession.cpp(190,10): warning C4101: “ret”: 未引用的局部变量
+  MediaSessionManager.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+  MediaSource.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Rtp.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+  RtspConnection.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Buffer.h(79,16): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\RtspConnection.cpp(302,8): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\RtspConnection.cpp(330,8): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\RtspConnection.cpp(412,8): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\RtspConnection.cpp(430,8): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\RtspConnection.cpp(454,8): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\RtspConnection.cpp(463,5): warning C4477: “fprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 4 拥有了类型“void *”
+  正在生成代码...
+  正在编译...
+  RtspServer.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Buffer.h(79,16): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Sink.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  TcpConnection.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\TcpConnection.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Buffer.h(79,16): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(27,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\BasicUsageEnvironment\Log.h(33,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\liveMedia\Rtp.h(34,13): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\src\main.cpp(22,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  SimpleRtspServer.vcxproj -> D:\WorkSpace\wuzj\Coding\code_dev\wuServer\SimpleRtspServer\windows\x64\Debug\SimpleRtspServer.exe

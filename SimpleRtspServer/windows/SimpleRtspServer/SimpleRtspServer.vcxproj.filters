@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\liveMedia">
+      <UniqueIdentifier>{d5e14e55-e972-4ee2-9bf6-c858ff916ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BasicUsageEnvironment">
+      <UniqueIdentifier>{bb01fe89-f3f9-4de0-a332-93edbec40447}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\AACFileMediaSource.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\AACFileSink.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\Buffer.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\H264FileMediaSource.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\H264FileSink.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\InetAddress.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\MediaSession.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\MediaSessionManager.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\MediaSource.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\Rtp.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\RtspConnection.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\RtspServer.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\Sink.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\liveMedia\TcpConnection.cpp">
+      <Filter>源文件\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\Event.cpp">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\EventScheduler.cpp">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\Poller.cpp">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\SelectPoller.cpp">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\SocketsOps.cpp">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\Thread.cpp">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\ThreadPool.cpp">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\Timer.cpp">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\UsageEnvironment.cpp">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\liveMedia\AACFileMediaSource.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\AACFileSink.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\Buffer.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\H264FileMediaSource.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\H264FileSink.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\InetAddress.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\MediaSession.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\MediaSessionManager.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\MediaSource.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\Rtp.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\RtpInstance.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\RtspConnection.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\RtspServer.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\Sink.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\liveMedia\TcpConnection.h">
+      <Filter>源文件\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Event.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\EventScheduler.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Log.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Poller.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\SelectPoller.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\SocketsOps.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Thread.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\ThreadPool.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Timer.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\UsageEnvironment.h">
+      <Filter>源文件\BasicUsageEnvironment</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

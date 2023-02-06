@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{68d3cb9e-b9e6-4e8d-aed0-1001fa927216}</ProjectGuid>
+    <RootNamespace>SimpleRtspServer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;WIN32;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\Event.cpp" />
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\EventScheduler.cpp" />
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\Poller.cpp" />
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\SelectPoller.cpp" />
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\SocketsOps.cpp" />
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\Thread.cpp" />
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\ThreadPool.cpp" />
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\Timer.cpp" />
+    <ClCompile Include="..\..\src\BasicUsageEnvironment\UsageEnvironment.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\AACFileMediaSource.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\AACFileSink.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\Buffer.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\H264FileMediaSource.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\H264FileSink.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\InetAddress.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\MediaSession.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\MediaSessionManager.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\MediaSource.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\Rtp.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\RtspConnection.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\RtspServer.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\Sink.cpp" />
+    <ClCompile Include="..\..\src\liveMedia\TcpConnection.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Event.h" />
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\EventScheduler.h" />
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Log.h" />
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Poller.h" />
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\SelectPoller.h" />
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\SocketsOps.h" />
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Thread.h" />
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\ThreadPool.h" />
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\Timer.h" />
+    <ClInclude Include="..\..\src\BasicUsageEnvironment\UsageEnvironment.h" />
+    <ClInclude Include="..\..\src\liveMedia\AACFileMediaSource.h" />
+    <ClInclude Include="..\..\src\liveMedia\AACFileSink.h" />
+    <ClInclude Include="..\..\src\liveMedia\Buffer.h" />
+    <ClInclude Include="..\..\src\liveMedia\H264FileMediaSource.h" />
+    <ClInclude Include="..\..\src\liveMedia\H264FileSink.h" />
+    <ClInclude Include="..\..\src\liveMedia\InetAddress.h" />
+    <ClInclude Include="..\..\src\liveMedia\MediaSession.h" />
+    <ClInclude Include="..\..\src\liveMedia\MediaSessionManager.h" />
+    <ClInclude Include="..\..\src\liveMedia\MediaSource.h" />
+    <ClInclude Include="..\..\src\liveMedia\Rtp.h" />
+    <ClInclude Include="..\..\src\liveMedia\RtpInstance.h" />
+    <ClInclude Include="..\..\src\liveMedia\RtspConnection.h" />
+    <ClInclude Include="..\..\src\liveMedia\RtspServer.h" />
+    <ClInclude Include="..\..\src\liveMedia\Sink.h" />
+    <ClInclude Include="..\..\src\liveMedia\TcpConnection.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
