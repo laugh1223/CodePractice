@@ -5,5 +5,9 @@
 
 ## Qt-FFmpeg-rtsp-player
 - 源码：[点此进入](https://github.com/laugh1223/QTDemo/tree/main/Qt-FFmpeg-rtsp-player)
-- qt+ffmpeg实现的rtsp播放器，音频播放存在杂音问题
+- qt+ffmpeg实现的rtsp播放器
 - ffmpeg使用的是windows平台下的库，库下载路径：[点此进入](https://github.com/laugh1223/QTDemo/releases/tag/0.1)
+
+## SimpleRtspServer
+- 源码：
+- 模仿live555，写的一个简易的rtsp server，仅供入门学习使用
