@@ -9,5 +9,5 @@
 - ffmpeg使用的是windows平台下的库，库下载路径：[点此进入](https://github.com/laugh1223/QTDemo/releases/tag/0.1)
 
 ## SimpleRtspServer
-- 源码：
+- 源码：[点此进入](https://github.com/laugh1223/CodePractice/tree/master/SimpleRtspServer)
 - 模仿live555，写的一个简易的rtsp server，仅供入门学习使用
