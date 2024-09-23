@@ -12,5 +12,5 @@
 - 源码：[点此进入](https://github.com/laugh1223/CodePractice/tree/master/SimpleRtspServer)
 - 模仿live555，写的一个简易的rtsp server，仅供入门学习使用
 ## IO_Socket_code
-- 源码：[点此进入]
+- 源码：[点此进入](https://github.com/laugh1223/code_practice/tree/master/IO_socket_code)
 - linux IO多路复用、UDP和TCP使用的代码示例
